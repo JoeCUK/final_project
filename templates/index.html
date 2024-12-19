@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}Welcome to My Professional Homepage{% endblock %}
+
+{% block content %}
+<section class="mb-4">
+    <h1>Welcome to My Professional Homepage</h1>
+    <p>Hello, I am Dr. Joseph Cutteridge. I am a medical doctor and aspiring vascular surgeon.
+    My central goal is to improve patient care through data-driven innovation.</p>
+
+    <p>Connect with me on <a href="https://www.linkedin.com/in/joseph-cutteridge-0379ba1a0/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+
+    <img alt="profile" src="{{ url_for('static', filename='IMG_0442.jpeg') }}" class="img-fluid my-3 h-25 w-25">
+
+    <p>I currently do not have many hobbies as I am in the process of applying for surgical training. However, I hope to have more of a life come March of next year.</p>
+</section>
+
+<section>
+    <h2>Greetings!</h2>
+    <button id="alertButton" class="btn btn-primary">Click to be greeted</button>
+</section>
+{% endblock %}

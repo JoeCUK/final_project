@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}ScholarScope{% endblock %}
+
+{% block content %}
+<section>
+    <h2>ScholarScope</h2>
+    <p>Explore your research impact over time. Below is a demo of Dr. Joseph Cutteridge's publication history on PubMed.</p>
+    <canvas id="demoChart"></canvas>
+</section>
+
+<section class="mt-5">
+    <h3>Like this tool? Try it yourself!</h3>
+    <form id="searchForm">
+        <label for="authorName">Author's Name:</label>
+        <input type="text" id="authorName" placeholder="Enter author's name" />
+        
+        <label for="orcidId">ORCID ID:</label>
+        <input type="text" id="orcidId" placeholder="XXXX-XXXX-XXXX-XXXX" />
+        
+        <button type="submit">Search Publications</button>
+    </form>
+    
+    <div id="userResults" style="display:none;">
+        <!-- Removed publication list -->
+        <canvas id="userChart" width="400" height="200"></canvas>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/final_project.js') }}"></script>
+{% endblock %}
