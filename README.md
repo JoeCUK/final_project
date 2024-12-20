@@ -4,7 +4,7 @@
 
 #### Description:
 
-ScholarScope is an interactive web-based platform designed to help researchers visualise and analyse their publication history and predict future output. It was designed as an extension to my personal homepage, developed in CS50 Week 8. 
+ScholarScope is an interactive web-based platform designed to help researchers visualise and analyse their publication history and predict future output. It was designed as an extension to my personal homepage, developed in CS50 Week 8.
 
 ### Key Features
 - **Dynamic Data Visualisation**: ScholarScope uses Chart.js to display historical publication data and projected future trends in an engaging bar chart format.
@@ -59,20 +59,6 @@ Render was chosen because it is free, has a fairly straightforward deployment pr
 #### Mock Data
 Mock publication data was used to demonstrate functionality. This approach allowed focus on the interface and logic without needing to integrate with a real API, which could be a future enhancement.
 
-### Challenges and Solutions
-
-1. **DNS Configuration**:
-   - Challenge: Configuring the custom domain and ensuring HTTPS.
-   - Solution: Adjusted GoDaddy DNS records to point to Render’s IP and CNAME, verified the configuration, and enabled HTTPS enforcement.
-
-2. **Interactive Charts**:
-   - Challenge: Ensuring seamless interaction between the frontend and backend for dynamic data visualization.
-   - Solution: Leveraged JavaScript’s `fetch` API and Chart.js for real-time updates.
-
-3. **Deployment**:
-   - Challenge: Initial build failures due to incorrect dependencies.
-   - Solution: Refined `requirements.txt` and ensured compatibility with Render’s Python environment.
-
 ### Future Enhancements
 - **API Integration**: Connect to live publication databases like PubMed or Google Scholar for real-time data.
 - **Advanced Analytics**: Include metrics like citation counts, h-index, and collaboration networks.
@@ -80,5 +66,5 @@ Mock publication data was used to demonstrate functionality. This approach allow
 - **Expanded Visualizations**: Add options for line graphs, pie charts, and other formats to explore data from different perspectives.
 
 ### Conclusion
-ScholarScope is a robust starting point for showcasing the potential of combining web technologies and data visualization to enhance research insights. This project demonstrates practical skills in full-stack web development, with a clear path for future growth and enhancement.
+ScholarScope is a robust starting point for showcasing the potential of combining web technologies and data visualization to enhance research insights. This project taught me a great deal about web development, and it has definite potential for future growth and enhancement.
 
