@@ -1,6 +1,6 @@
 # ScholarScope: Research Trend Analyser
 
-#### Video Demo: <URL HERE>
+#### Video Demo: https://youtu.be/Njv4ObVi1l0
 
 #### Description:
 
