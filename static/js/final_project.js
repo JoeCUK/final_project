@@ -21,7 +21,7 @@ function predictFutureValues(historyYears, historyCounts, futureYears) {
     return futureYears.map(year => slope * year + intercept);
 }
 
-// Demo chart for Joseph Cutteridge
+// Demo chart for me
 fetch("/static/publication_data.json")
     .then(response => response.json())
     .then(data => {

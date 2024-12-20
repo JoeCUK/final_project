@@ -31,7 +31,7 @@ def final_project():
 @app.route("/api/publications", methods=["GET"])
 def get_publications():
     author = request.args.get("author")
-    # Here, we'll simulate fetching publication data
+    # Simulate fetching publication data
     data = simulate_fetch_publication_data(author)
     return jsonify(data)
 
